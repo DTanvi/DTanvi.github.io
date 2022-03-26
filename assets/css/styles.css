@@ -1,0 +1,99 @@
+body {
+    background-color: #0a0a0e;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: poppins;
+}   
+
+.person {
+    height: 500px;
+    width: auto;
+}
+
+.center {
+    border: black 2px solid;
+    max-width: 1180px;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+}
+
+.center > * {
+    margin: 0 0 0 0;
+}
+
+.center p { 
+    margin-top: 20px;
+}
+
+.grid-container {
+     display: grid;
+     grid-template-columns: auto auto;
+}
+
+.grid-item {
+    display: block;
+    width: 50px;
+    height: 500px;
+    margin: auto auto;
+}
+
+.grid-text{
+    margin: 190px auto 50px auto;
+}
+
+.bigtext {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+}
+
+h2 {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: left;
+    color: #5d5fef;
+}
+
+.text1 {
+    text-align: left;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    border: 2px solid #5d5fef;
+    background-color: #0a0a0e;
+    color:  white;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+
+    font-family: poppins;
+    height: 40px;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5d5fef;
+}
+
+p{
+    text-align: left;
+    font-family: poppins;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #5d5fef;
+}
+
